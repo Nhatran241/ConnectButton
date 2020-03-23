@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ConnectButtonShadowView">
+        <attr name="connectBackground" format="string"/>
+        <attr name="connectingBackground" format="string"/>
+        <attr name="connectedBackground" format="string"/>
+        <attr name="lottie_speed" format="float"/>
+        <attr name="startFrame" format="integer"/>
+        <attr name="endFrame" format="integer"/>
+        <attr name="cardElevation" format="dimension"/>
+        <attr name="cardBackgroundColor" format="color"/>
+        <attr name="cardCornerRadius" format="dimension"/>
+        <attr name="cardMaxElevation" format="dimension"/>
+        <attr name="shadowOnConnect" format="boolean"/>
+        <attr name="shadowOnConnecting" format="boolean"/>
+        <attr name="shadowOnConnected" format="boolean"/>
+    </declare-styleable>
+</resources>
